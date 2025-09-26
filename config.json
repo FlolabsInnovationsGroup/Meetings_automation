@@ -1,0 +1,33 @@
+{
+  "notion_token": "secret_xxx",
+  "notion_database_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "zoom_accounts": {
+    "accA": {
+      "account_id": "YOUR_ZOOM_ACCOUNT_ID_A",
+      "client_id": "YOUR_CLIENT_ID_A",
+      "client_secret": "YOUR_CLIENT_SECRET_A"
+    },
+    "accB": {
+      "account_id": "YOUR_ZOOM_ACCOUNT_ID_B",
+      "client_id": "YOUR_CLIENT_ID_B",
+      "client_secret": "YOUR_CLIENT_SECRET_B"
+    }
+  },
+  "lookahead_days": 60,
+  "http_timeout_seconds": 20,
+  "notion_page_size": 50,
+  "property_map": {
+    "title": "Topic",
+    "id": "Meeting ID",
+    "uuid": "UUID",
+    "occurrence": "Occurrence ID",
+    "start": "Start",
+    "duration": "Duration (min)",
+    "timezone": "Timezone",
+    "join_url": "Join URL",
+    "host_id": "Host ID",
+    "status": "Status",
+    "account": "Zoom Account",
+    "user_email": "Host Email"
+  }
+}
