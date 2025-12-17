@@ -2,7 +2,8 @@
   "notion_token": "secret_xxx",
   "notion_database_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
   "zoom_accounts": {
-    "accA": {
+    "PM": {
+      "secret_token": "ADZphQDtTEiGIbEFoBpxxw",
       "account_id": "YOUR_ZOOM_ACCOUNT_ID_A",
       "client_id": "YOUR_CLIENT_ID_A",
       "client_secret": "YOUR_CLIENT_SECRET_A"
@@ -26,7 +27,7 @@
     "timezone": "Timezone",
     "join_url": "Join URL",
     "host_id": "Host ID",
-    "status": "Status",
+    "status": ["Cancelled", "Listed", "Scheduled", "Postponed", "Done"],
     "account": "Zoom Account",
     "user_email": "Host Email"
   }
